@@ -15,3 +15,6 @@ if text:
     translator = Translator()
     translation = translator.translate(text, dest=language)
     st.write(f'Преведеният текст на {language}: {translation.text}')
+
+# Включено в горния код, добави:
+st.write(f'Оригинален език: {translation.src}')
